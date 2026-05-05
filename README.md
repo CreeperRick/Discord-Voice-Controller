@@ -32,7 +32,7 @@ Verify installation by opening a terminal (Command Prompt / PowerShell / bash) a
 Pip comes installed with Python 3.4+. To verify pip is installed:
 
 ```bash
-pip --version
+python -m pip --version
 ```
 If pip is not installed (very rare), install it manually:
 
