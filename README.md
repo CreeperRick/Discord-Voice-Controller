@@ -72,7 +72,7 @@ python -m pip install --upgrade pip
   With the virtual environment activated, run:
   
   ```bash
-  pip install sounddevice numpy keyboard faster-whisper
+  python -m pip install sounddevice numpy keyboard faster-whisper
   ```
   On Linux you may need system audio libraries first:
   ```sudo apt install portaudio19-dev python3-pyaudio```
