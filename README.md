@@ -158,19 +158,17 @@ The console will show what Whisper heard and play a confirmation beep.
 Press ```Ctrl+C``` to stop.
 
 
-# 🐛 Troubleshooting
-Problem	Fix
-
 ## 🐛 Troubleshooting
 
 | Problem | Fix |
 |---------|-----|
-| `python not recognized` | Python not in PATH – reinstall with “Add to PATH” or use `py` instead of `python` on Windows. |
+| `python not recognized` | Python not in PATH – reinstall with "Add to PATH" or use `py` instead of `python` on Windows. |
 | `pip install` fails on Linux | Run `sudo apt install portaudio19-dev python3-dev` then try again. |
 | Microphone not working | Check OS sound settings, then restart script and choose a different device number. |
 | Commands ignored | Look at `whisper_log.txt` – it shows exactly what was transcribed. Increase `BUFFER_DURATION` or change `WHISPER_MODEL_SIZE = "base"` in the script. |
 | Camera command does nothing | You **must** set the `Toggle Video` keybind in Discord manually (see instructions). |
-| Keyboard shortcuts don’t affect Discord | Run terminal as **administrator/root** – some systems block global hotkeys otherwise. |
+| Keyboard shortcuts don't affect Discord | Run terminal as **administrator/root** – some systems block global hotkeys otherwise. |
+| **NumPy DLL error (`DLL load failed while importing _multiarray_umath`)** | This is a Windows system library issue. **Fix:** Install/repair the [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) (run the x64 version), then restart your computer. If that doesn't work, try: `pip uninstall numpy` then `pip install numpy` in a clean virtual environment. |
 
 
 # 📄 License
