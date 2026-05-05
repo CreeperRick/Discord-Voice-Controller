@@ -7,14 +7,14 @@ Includes a live mic level meter, fuzzy command matching, and a transcription log
 
 ### 1. Python (3.8 or newer)
 
-- **Windows**: Download from [python.org](https://www.python.org/downloads/)  
+- **Windows**: Download from [python.org]([https://www.python.org/downloads/](https://www.python.org/downloads/release/python-3119/))  
   ✅ **Check** “Add Python to PATH” during installation.
 
 - **macOS**:  
   ```bash
   brew install python@3.11
   ```
-  or download from [python.org](https://www.python.org/downloads/).
+  or download from [python.org]([https://www.python.org/downloads/](https://www.python.org/downloads/release/python-3119/)).
 - Linux (Ubuntu/Debian):
   
   ```bash
