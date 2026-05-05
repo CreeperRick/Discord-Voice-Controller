@@ -12,7 +12,7 @@ Includes a live mic level meter, fuzzy command matching, and a transcription log
 
 - **macOS**:  
   ```bash
-  brew install python@3.11
+  brew install python@3.14.2
   ```
   or download from [python.org](https://www.python.org/downloads/release/python-3142/).
 - Linux (Ubuntu/Debian):
