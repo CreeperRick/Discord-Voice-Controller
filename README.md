@@ -29,11 +29,17 @@ Verify installation by opening a terminal (Command Prompt / PowerShell / bash) a
   Should show Python 3.8+.
  
 # 2. Pip (Python package manager)
+  Upgrade pip to the latest version (recommended):
+  
+  ```bash
+  python -m pip install --upgrade pip
+  ```
   Comes with Python 3.4+. Verify:
   
   ```bash
   pip --version
   ```
+
 # 3. Virtual environment (recommended)
   Create and activate one:
   
