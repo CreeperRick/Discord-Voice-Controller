@@ -25,8 +25,9 @@ Verify installation by opening a terminal (Command Prompt / PowerShell / bash) a
 
   ```bash
   python --version
-  Should show Python 3.8+.
   ```
+  Should show Python 3.8+.
+ 
 # 2. Pip (Python package manager)
   Comes with Python 3.4+. Verify:
   
