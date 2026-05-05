@@ -29,17 +29,29 @@ Verify installation by opening a terminal (Command Prompt / PowerShell / bash) a
   Should show Python 3.8+.
  
 # 2. Pip (Python package manager)
-  Upgrade pip to the latest version (recommended):
-  
-  ```bash
-  python -m pip install --upgrade pip
-  ```
-  Comes with Python 3.4+. Verify:
-  
-  ```bash
-  pip --version
-  ```
+Pip comes installed with Python 3.4+. To verify pip is installed:
 
+```bash
+pip --version
+```
+If pip is not installed (very rare), install it manually:
+
+Windows:
+
+```bash
+python -m ensurepip --upgrade
+```
+macOS / Linux:
+
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
+Upgrade pip to the latest version (recommended):
+
+```bash
+python -m pip install --upgrade pip
+```
 # 3. Virtual environment (recommended)
   Create and activate one:
   
