@@ -88,8 +88,9 @@ python -m pip install --upgrade pip
     cmd
     ``` cmd
     set HF_TOKEN=hf_xxxxxxxxxxxx
-    Windows PowerShell:
     ```
+    Windows PowerShell:
+  
     powershell  
     ``` powershell
     $env:HF_TOKEN = "hf_xxxxxxxxxxxx"
