@@ -132,7 +132,7 @@ Default shortcuts (work out of the box):
 4. Run:
 
 ```bash
-python discord_voice_controller.py
+python discord_voice_control.py
 ```
 # First run:
 - The script lists your input devices – type the number of your microphone.
