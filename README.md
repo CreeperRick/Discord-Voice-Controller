@@ -76,11 +76,13 @@ python -m pip install --upgrade pip
   ```
   On Linux you may need system audio libraries first:
   ```bash
-  sudo apt install portaudio19-dev python3-pyaudio```
+  sudo apt install portaudio19-dev python3-pyaudio
+  ```
   
   On macOS with Homebrew:
   ```bash
-  brew install portaudio```
+  brew install portaudio
+  ```
 # 5. (Optional) Hugging Face token – remove rate‑limit warning
   Get a free token at huggingface.co/settings/tokens (read permission).
   Set it as environment variable:
