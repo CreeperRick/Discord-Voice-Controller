@@ -14,7 +14,7 @@ Includes a live mic level meter, fuzzy command matching, and a transcription log
   ```bash
   brew install python@3.11
   ```
-  or download from python.org.
+  or download from [python.org](https://www.python.org/downloads/).
 - Linux (Ubuntu/Debian):
   
   ```bash
