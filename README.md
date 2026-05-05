@@ -58,7 +58,7 @@ python -m pip install --upgrade pip
   - Windows:
 
     ```bash
-    python -m venv discord_env
+    py -3.11 -m venv discord_env
     discord_env\Scripts\activate
      ```
 - macOS / Linux:
